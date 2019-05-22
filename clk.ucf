@@ -1,0 +1,5 @@
+
+# clock pin for Atlys rev C board
+
+NET "CLK" PERIOD = 10ns HIGH 50%;
+NET "CLK" LOC = "L15"; # Bank = 1, Pin name = IO_L42P_GCLK7_M1UDM, Type = GCLK, Sch name = GCLK
